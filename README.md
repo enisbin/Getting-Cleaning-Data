@@ -13,3 +13,9 @@ All the columns with mean() and std() values are extracted using the "grep" func
 With the "merge" function, descriptive activity names are merged with the mean/std values dataset, to get one dataset with descriptive activity names.
 
 Using "melt" and "dcast" functions of the "reshape2" package, the data is converted into a table containing mean values of all the included features, arranged by the activity name and the subject id, and the data is written to the "tidy_movement_data.txt" file.
+
+activity_id: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
+
+activity_name: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+subject_id : Identifier, identifying each subject Type: Integer Values: 1 : 30
